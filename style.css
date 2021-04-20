@@ -328,6 +328,9 @@ footer p {
     article, aside {
         width: 100%;
     }
+   article {
+        padding-right: 0px;
+    }
 
     /* GALLERY */
     .grid {

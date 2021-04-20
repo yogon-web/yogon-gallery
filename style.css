@@ -338,9 +338,13 @@ footer p {
     }
 
     /* CONTACT */
-    .contact-box input{
+    .contact-box textarea {
         width: 100%;
-
+    }
+    input[type="text"],
+    input[type="email"],
+    input[type="tel"]{
+        width: 100%;
     }
 
 

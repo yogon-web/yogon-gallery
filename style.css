@@ -302,7 +302,7 @@ footer p {
 
 @media(max-width: 600px) {
     .logo {
-        font-size: 0.9rem;
+        font-size: rem;
     }
 
     /* HEADER */
@@ -318,7 +318,8 @@ footer p {
     .home-content p {
         position: absolute;
         top: 50%;
-        left: 15%;
+        left: 10%;
+        font-size: 20px;
     }
 
     /* ABOUT */
@@ -330,6 +331,9 @@ footer p {
     }
    article {
         padding-right: 0px;
+    }
+    aside {
+        margin-top: 30px;
     }
 
     /* GALLERY */

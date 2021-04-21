@@ -302,7 +302,7 @@ footer p {
 
 @media(max-width: 600px) {
     .logo {
-        font-size: rem;
+        font-size: 1.2rem;
     }
 
     /* HEADER */

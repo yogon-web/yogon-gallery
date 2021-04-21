@@ -155,7 +155,7 @@ article {
 /* サイド画像部分　*/
 aside {
     width: 50%;
-    margin-top: 120px;
+    margin-top: 50px;
 }
 
 .intro-contents {
@@ -319,7 +319,7 @@ footer p {
         position: absolute;
         top: 50%;
         left: 10%;
-        font-size: 20px;
+        font-size: 15px;
     }
 
     /* ABOUT */

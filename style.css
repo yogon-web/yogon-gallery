@@ -103,9 +103,10 @@ header .wrapper {
 }
 
 /* テキストがあるバージョン */
-.title {
-  font-size: 32px;
-  color: #fff;
+.hometitle {
+  font-size: 1.5rem;
+  font-family: 'Playball', cursive;
+  color: #dbedf0;
   z-index: 11;
   position: absolute;
   top: 50%;

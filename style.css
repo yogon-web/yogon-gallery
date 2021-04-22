@@ -371,16 +371,7 @@ footer p {
         width: 100%;
     }
 
-    .home-content {
-        position: relative;
-        
-    }
-    .home-content p {
-        position: absolute;
-        top: 50%;
-        left: 10%;
-        font-size: 20px;
-    }
+    
 
     /* ABOUT */
     .intro-contents {

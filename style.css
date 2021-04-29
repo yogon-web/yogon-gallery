@@ -248,6 +248,48 @@ aside {
     font-size: 12px;
 }
 
+/* NEWS */
+.horizontal-list {
+	overflow-x: auto;
+	white-space: nowrap;
+  -webkit-overflow-scrolling: touch;
+  background-color: #000;
+}
+.horizontal-list li{
+	display: inline-block;
+	width: 40%;
+	height: 300px;
+	margin: 180px 30px;
+	font-size: 30px;
+  text-align: center;
+  background-position: top;
+  background-size: cover;
+}
+.horizontal-list a {
+   color: #f67690;
+   font-weight: bold;
+}
+.horizontal-list a:hover {
+    color:  #de4d4d;
+}
+.itema {
+    background-image: url(210112.jpg);
+}
+.itemb {
+    background-image: url(210112.jpg);
+}
+.itemc {
+    background-image: url(210112.jpg);
+}
+.itemd {
+    background-image: url(210112.jpg);
+}
+.iteme {
+    background-image: url(210112.jpg);
+}
+.itemf {
+    background-image: url(210112.jpg);
+}
 
 /* コンタクト 縦タイトル*/
 .title-contact {

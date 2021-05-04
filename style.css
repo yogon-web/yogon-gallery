@@ -227,7 +227,7 @@ aside {
 
 /*ギャラリー背景　*/
 .gallery-bg {
-    background-color: #000;
+    background-color: #4a551e;
     color: #ddd;
 }
 
@@ -253,7 +253,7 @@ aside {
 	overflow-x: auto;
 	white-space: nowrap;
   -webkit-overflow-scrolling: touch;
-  background-color: #000;
+  background-color: #4a551e;
 }
 .horizontal-list li{
   display: inline-block;

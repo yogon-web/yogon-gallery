@@ -266,29 +266,29 @@ aside {
   background-size: cover;
 }
 .horizontal-list a {
-   color: #f67690;
+   color: red;
    font-weight: bold;
 }
 .horizontal-list a:hover {
-    color:  #de4d4d;
+    color:  yellow;
 }
 .itema {
-    background-image: url(210112.jpg);
+    background-image: url(349151234.jpg);
 }
 .itemb {
-    background-image: url(210112.jpg);
+    background-image: url(349151234.jpg);
 }
 .itemc {
-    background-image: url(210112.jpg);
+    background-image: url(349151234.jpg);
 }
 .itemd {
-    background-image: url(210112.jpg);
+    background-image: url(349151234.jpg);
 }
 .iteme {
-    background-image: url(210112.jpg);
+    background-image: url(349151234.jpg);
 }
 .itemf {
-    background-image: url(210112.jpg);
+    background-image: url(349151234.jpg);
 }
 
 /* コンタクト 縦タイトル*/

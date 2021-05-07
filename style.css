@@ -437,22 +437,7 @@ footer p {
         display: grid;
         gap:10px;
         grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
-
     }
-　　
-
-
-
-
-
-   /* NEWS */
-  .horizontal-list li {
-    width: 80%;
-    height: 200px;
-    margin: 100px 10px;
-    font-size: 20px;
-   }
-
 
     /* CONTACT */
     .contact-box textarea {
@@ -463,12 +448,12 @@ footer p {
     input[type="tel"]{
         width: 130%;
     }
+}
+  
 
 
 
-
-
-
+    @media(max-width: 1000px){
     /*============
     nav
     =============*/
@@ -592,24 +577,5 @@ footer p {
       z-index: 2;
       cursor: pointer;
     }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+    
 }

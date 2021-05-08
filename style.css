@@ -8,7 +8,7 @@ html {
 body {
    font-family: "Yu Gothic Medium", "游ゴシック　Medium", YuGothic, "游ゴシック体", "ヒラギノ角ゴ　Pro W3", sans-serif;
    line-height: 1.7;
-   color: #432;
+   color: #ddd;
 
 }
 a {
@@ -174,7 +174,7 @@ header .wrapper {
 
 /* ABOUT */
 .big-bg {
-    background-color: #f6f0cc;
+    background-color: #2b3330;
 
 }
 
@@ -296,7 +296,7 @@ ul {
 /* コンタクト 縦タイトル*/
 .title-contact {
     font-size: 30px;
-    color: #432;
+    color: #ddd;
     border-left: 10px #fecf8d solid;
      padding-left:10px;
 }
@@ -312,7 +312,7 @@ ul {
     margin-top: 280px;
 }
 .contact-bg {
-    background-color: #f6f0cc;
+    background-color: #2b3330;
 
 }
 
@@ -372,12 +372,12 @@ input[type="submit"]{
 /* フッター　
 -----------------------------　*/
 footer {
-    background: #432;
+    background: #330000;
     text-align: center;
     padding: 26px 0;
 }
 footer p {
-    color: #fff;
+    color: #ddd;
     font-size: 0.875rem;
 }
 

@@ -254,7 +254,7 @@ aside {
   border-left: 10px #fecf8d solid;
   padding-left:10px;
   margin-bottom: 50px;
-  color: #432;
+  color: #ddd;
 }
 
 /* slider */
@@ -267,7 +267,7 @@ aside {
     width: 100%;
 }
 .slider a {
-    color: #432;
+    color: #ddd;
 }
 .slider a:hover {
     opacity: .5;
@@ -281,7 +281,7 @@ aside {
     color: #000;
 }
 .sliderbg {
-    background-color: #ced1b3;
+    background-color: #474b3c;
     padding-bottom: 250px;
 }
 .sliderbg p {

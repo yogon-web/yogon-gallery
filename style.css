@@ -348,6 +348,21 @@ ul {
     color: #432;
 }
 
+/* NEWS タイトル　*/
+.news {
+  font-size: 30px;
+  border-left: 10px #fecf8d solid;
+  padding-left:10px;
+  margin-bottom: 20px;
+  color: #fff;
+}
+.check {
+     text-align: right;
+     font-size: 25px;
+     color: #fff;
+     font-family: cursive;
+
+}
 
 /* NEWS */
 .newsbg {

@@ -637,6 +637,13 @@ footer p {
        object-fit: cover;
     }
    
+   /* Writting */
+   .writting {
+      padding: 20px;
+      width: 90%;
+    }
+
+   
    /* NEWS */
     .big-box3 {
         grid-column: auto;

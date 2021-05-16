@@ -564,6 +564,16 @@ footer p {
 
 
 
+/*------------- safari------------------ */
+.safari-home {
+    background-color: #000;
+}
+.w {
+    background-image: url(S__350748680-2.jpg);
+    background-size: cover;
+    height: 100%;
+    background-color: #000;
+}
 
 
 

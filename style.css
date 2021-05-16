@@ -555,16 +555,11 @@ footer p {
 }
 
 
-/* safari */
-.safari-home {
-   background-image: url(2104060.jpg);
-   height: 270px;
-    margin-bottom: 40px;
-}
 
 
 
-/*------------- safari------------------ */
+
+/* safari------------------ */
 .safari-home {
     background-color: #000;
 }

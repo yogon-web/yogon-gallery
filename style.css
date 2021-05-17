@@ -559,15 +559,33 @@ footer p {
 
 
 
-/* safari------------------ */
-.safari-home {
+/*------------- collections内共通------------------ */
+.all-home {
     background-color: #000;
 }
-.w {
+.font {
+    font-weight: bold;
+    color: #fff;
+
+}
+
+/* safari */
+.s {
+    background-image: url(S__352018436-3.jpg);
+    background-size: cover;
+    height: 100%;
+    background-color: #000;
+}
+
+/* tokushima */
+.t {
     background-image: url(S__350748680-2.jpg);
     background-size: cover;
     height: 100%;
     background-color: #000;
+}
+.size img{
+    height: 92%;
 }
 
 

@@ -287,6 +287,13 @@ article {
   margin-bottom: 50px;
   color: #fff;
 }
+.click {
+     text-align: right;
+     font-size: 25px;
+     color: #fff;
+     font-family: cursive;
+     margin-right: 120px;
+}
 
 /* slider */
 .slider{

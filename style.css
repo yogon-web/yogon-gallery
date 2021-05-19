@@ -613,6 +613,15 @@ footer p {
     object-fit: cover;
 }
 
+/* shiba-inu */
+.shiba {
+    background-image: url(shiba-images/S__352518146-2.jpg);
+    background-size: cover;
+    height: 100%;
+    background-color: #000;
+}
+
+
 
 
 

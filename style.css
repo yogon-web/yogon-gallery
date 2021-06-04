@@ -781,6 +781,13 @@ footer p {
     background-color: #000;
 }
 
+/* landscape */
+.l {
+    background-image: url(land-images/S__356966412-2.jpg);
+    background-size: cover;
+    height: 100%;
+    background-color: #000;
+}
 
 
 

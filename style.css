@@ -194,6 +194,58 @@ header .wrapper {
 }
 
 
+/* Blog */
+.blog-bg {
+    background-image: url(S__359006210.jpg);
+    width: 100%;
+    background-size: cover;
+
+
+}
+.blog {
+    text-align: center;
+    padding: 50px;
+    font-size: 50px;
+    font-weight: bolder;
+    font-family: serif;
+    background: rgba(000,000,000,.5);
+    color: #fff;
+}
+.blog-bg p:hover {
+    opacity: .9;
+}
+.naiyou {
+    font-weight: bolder;
+    color: #ddd;
+    text-align: center;
+    padding-bottom: 40px;
+    background: rgba(000,000,000,.5);
+}
+.button2 {
+    font-size: 1.37rem;
+    background: #fecf8d;
+    color: #432;
+    border-radius: 5px;
+    padding: 10px 0 10px 0;
+    text-align: center;
+
+    font-weight: bolder;
+}
+.button2:hover {
+    background: #e6bc87;
+}
+/*左から右にフェードイン*/
+.left-to-right {
+  opacity: 0.1;
+  transform: translateX(-20px);
+  transition: all 1s;
+}
+.left-to-right.scrollin {
+  opacity: 1;
+  transform: translate(0);
+}
+
+
 /* ABOUT */
 .big-bg {
   background-image: url(349831170-10.jpg);

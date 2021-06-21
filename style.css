@@ -40,6 +40,7 @@ img {
 
 /* 言語切り替えEND　↑↑　*/
 
+
 /* HEADER
 -----------------------------*/
 header {
@@ -68,7 +69,7 @@ span {
     margin-top: 20px;
 }
 .main-nav li{
-    margin-left: 36px;
+    margin-left: 30px;
 
 }
 .main-nav a {
@@ -193,43 +194,149 @@ header .wrapper {
   }
 }
 
+/* NEWS お知らせTOP　*/
+.news-flex {
+    display: flex;
+    flex-direction: row;
+    justify-content: center space-between;
+}
 
-/* Blog */
+.topnews {
+    margin-left: 20px;
+    background: rgba(000,000,000,.5);
+    width: 33%;
+}
+.topnews a {
+    color: #fff;
+}
+.news-p {
+    padding: 20px;
+}
+
+/* --------保留
+.top-news img {
+   padding-left: 10px;
+   padding-right: 10px;
+   width: 100%;
+}
+.top-news a {
+   color: white;
+   font-weight: bolder;
+}
+---- */
 .blog-bg {
-    background-image: url(S__359006210.jpg);
-    width: 100%;
-    background-size: cover;
+   background-image: url(S__359006210.jpg);
+   width: 100%;
+   background-size: cover;
+   height: 100%;
 }
 .layer {
-    background: rgba(000,000,000,.3);
+   background: rgba(000,000,000,.3);
 }
 .blog {
-    text-align: center;
-    padding: 30px;
-    font-size: 35px;
-    font-weight: bolder;
-    font-family: serif;
-    color: #fff;
+   text-align: center;
+   padding: 30px;
+   font-size: 35px;
+   font-weight: bolder;
+   font-family: serif;
+   color: #fff;
 }
 .blog-bg p:hover {
-    opacity: .9;
+   opacity: .9;
 }
 .naiyou {
-    color: #fff;
-    text-align: center;
-    padding-bottom: 40px;
+   color: #fff;
+   text-align: center;
+   padding-bottom: 80px;
 }
 .button2 {
-    background: #fecf8d;
-    color: #432;
-    border-radius: 5px;
-    padding: 10px 0 10px 0;
-    text-align: center;
-    font-weight: bolder;
+   background: #fecf8d;
+   color: #432;
+   border-radius: 5px;
+   padding: 10px 0 10px 0;
+   text-align: center;
+   font-weight: bolder;
 }
 .button2:hover {
-    background: #e6bc87;
+   background: #e6bc87;
 }
+.see {
+    width: 40%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* マウスオーバーで文字表示　*/
+.photo-box12 {
+ width: 100%;/* 画像の幅調整 */
+}
+
+.photo-box12 .circumscribed-photo-box-hidden {
+  width: 100%;
+  position: relative;
+  overflow: hidden;
+}
+
+.photo-box12 .circumscribed-photo-box {
+  width: 100%;
+  height: 0;
+  padding-top: 75%;/* 画像の高さ調整 */
+  background: url(S__360259586.jpg) no-repeat center center; /* 画像のURLを指定 */
+  background-size: cover;
+}
+.photo-box12 .circumscribed-photo-box2 {
+  width: 100%;
+  height: 0;
+  padding-top: 75%;/* 画像の高さ調整 */
+  background: url(S__360251394.jpg) no-repeat center center; /* 画像のURLを指定 */
+  background-size: cover;
+}
+.photo-box12 .circumscribed-photo-box3 {
+  width: 100%;
+  height: 0;
+  padding-top: 75%;/* 画像の高さ調整 */
+  background: url(S__360259586.jpg) no-repeat center center; /* 画像のURLを指定 */
+  background-size: cover;
+}
+
+.photo-box12 .mask {
+  width: 100%;
+  height: 0;
+  padding-top: 75%;/* 画像の高さ調整をした場合は、こちらも同じ値に変更 */
+  background-color: rgba(0,0,0,0.8);
+}
+
+.photo-box12 .mask-text {
+  position: absolute;
+  width: 100%;
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%);
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  font-size: 0.8em;
+  color: #fff;
+  text-align: center;
+}
+
+.photo-box12 .mouse-over-mask {
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0;
+  transform: rotateX(-180deg);
+  transition: all 0.5s ease;
+}
+
+.photo-box12:hover .mouse-over-mask {
+  transform: rotateX(0deg);
+  opacity: 1;
+}
+.mask-text {
+    padding: 0 10px 0 10px;
+}
+
 /*左から右にフェードイン*/
 .left-to-right {
   opacity: 0.1;
@@ -245,6 +352,7 @@ header .wrapper {
 
 
 /* ABOUT */
+
 .big-bg {
   background-image: url(349831170-10.jpg);
   background-size: cover;
@@ -292,6 +400,9 @@ article {
 }
 
 
+
+
+
 /*ギャラリー背景　*/
 .gallery-bg {
     background-color: #222;
@@ -337,6 +448,7 @@ article {
 .item p {
     font-size: 12px;
 }
+/* マウスオーバーでモノクロ　*/
 .grid img {
   filter: grayscale(0);
   transition-duration: 0.5s;
@@ -365,6 +477,7 @@ article {
      color: #fff;
      font-family: cursive;
      margin-right: 120px;
+
 }
 
 /* slider */
@@ -379,6 +492,7 @@ article {
 .slider a {
     color: #fff;
 }
+/* マウスオーバーでモノクロ　*/
 .slider img {
   filter: grayscale(0);
   transition-duration: 0.5s;
@@ -444,22 +558,85 @@ ul {
 }
 
 /* NEWS */
+.suzuri {
+    display: flex;
+    flex-direction:row;
+    width: 100%;
+    padding: 20px;
+}
+.suzuri img {
+    width: 100%;
+    background: rgba(255,255,255,.2);
+}
+.suzuri p {
+    background: rgba(000,000,000,.5);
+    padding: 10px;
+}
+.caption {
+    color: #fff;
+    text-align: center;
+
+}
+.products {
+    margin-right: 10px;
+}
+.suzuri img:hover {
+    opacity: .7;
+}
+.suzuri p:hover {
+    opacity: .5;
+}
+.suzuri-intro {
+    background: rgba(255,255,255,.5);
+    padding: 20px;
+    text-align: center;
+    color: #432;
+    margin-top: 30px;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.adobe {
+    color: red;
+}
+.suzuri-intro a:hover {
+     opacity: .5;
+}
+
+
+/* moreボタン　*/
+.more {
+    text-align: center;
+    width: 30%;
+    font-size: 20px;
+    font-weight: bolder;
+    padding: 20px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
 .newsbg {
     background-image: url(DSC03147-2.jpg);
     background-size: cover;
 }
+.padding {
+    padding-top:230px;
+}
 
+
+
+/* 徳島の秘境についての記事　保留--------------
 .grid2 {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     padding: 30px;
     width: 90%;
     margin: 0 auto;
-    background: rgba(000,000,000,.2);
 }
 .grid2 a {
     color: #432;
 }
+
 .big-box3 {
     grid-column: 1/3;
     grid-row: 1/3;
@@ -510,10 +687,7 @@ ul {
     width: 100%;
     height: 100%;
 }
-.padding {
-    padding-top:230px;
-}
-
+-------------------------------------*/
 
 /* マウスオーバーでモノクロ　*/
 .grid2 img {
@@ -533,8 +707,9 @@ ul {
   filter: grayscale(100%);
   transition-duration: 0.5s;
 }
-
 /* NEWS内１ */
+
+
 .times-bg {
     background-image: url(S__351567877.jpg);
     height: 270px;
@@ -604,6 +779,7 @@ ul {
     margin: 0;
     padding: 0;
     font-size: 20px;
+
     font-weight: bolder;
 }
 
@@ -666,6 +842,9 @@ ul {
     width: 50%;
 
 }
+
+
+
 
 
 
@@ -771,10 +950,6 @@ footer p {
 }
 
 
-
-
-
-
 /*------------- collections内共通------------------ */
 .all-home {
     background-color: #000;
@@ -804,6 +979,7 @@ footer p {
 }
 .size img{
     height: 92%;
+    object-fit: cover;
 }
 
 /* canada */
@@ -842,6 +1018,14 @@ footer p {
 
 
 
+
+
+
+
+
+
+
+
 /* モバイル版
 ---------------------------------------　*/
 
@@ -858,6 +1042,29 @@ footer p {
         height: 50px;
         width: 100%;
     }
+
+    /* NEWS-TOPお知らせ　*/
+    .news-flex {
+        display: flex;
+        flex-direction: column;
+        justify-content: center space-between;
+    }
+    .topnews {
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 15px;
+    }
+    .see {
+        width: 100%;
+    }
+
+
+
+
+
+
+
 
 
 
@@ -907,15 +1114,27 @@ footer p {
     .tate {
        object-fit: cover;
     }
-   
-   /* Writting */
-   .writting {
-      padding: 20px;
-      width: 90%;
+
+    /* Writting */
+    .writting {
+        padding: 20px;
+        width: 90%;
     }
 
-   
-   /* NEWS */
+    /* Products SUZURI */
+    .suzuri {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+    .more {
+       width: 100%;
+    }
+    .products {
+        margin-bottom: 30px;
+    }
+
+    /* NEWS */
     .big-box3 {
         grid-column: auto;
         grid-row: auto;
@@ -932,12 +1151,13 @@ footer p {
         padding: 0px;
     }
     .news1 {
-       font-size: 20px;
-       padding: 20px;
+         font-size: 20px;
+         padding: 20px;
+
     }
-   
-   
-   /* NEWS内１ */
+
+
+/* NEWS内１ */
 
     .times-home {
         text-align: center;
@@ -978,7 +1198,8 @@ footer p {
         margin-top: 10px;
     }
 
-   
+
+
 
     /* CONTACT */
     .contact-box textarea {
@@ -991,6 +1212,7 @@ footer p {
     }
 
 }
+
 
 
 

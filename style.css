@@ -886,7 +886,7 @@ input[type="text"],
 input[type="email"],
 input[type="tel"],
 textarea {
-    background: rgba(255,255,255,.5);
+    background: rgba(255,255,255,.7);
     border: 1px #fff solid;
     border-radius: 5px;
     padding: 10px;

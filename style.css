@@ -1203,12 +1203,12 @@ footer p {
 
     /* CONTACT */
     .contact-box textarea {
-        width: 130%;
+        width: 120%;
     }
     input[type="text"],
     input[type="email"],
     input[type="tel"]{
-        width: 130%;
+        width: 120%;
     }
 
 }

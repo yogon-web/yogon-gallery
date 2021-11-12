@@ -281,7 +281,7 @@ header .wrapper {
   width: 100%;
   height: 0;
   padding-top: 75%;/* 画像の高さ調整 */
-  background: url(S__383721474.jpg) no-repeat center center; /* 画像のURLを指定 */
+  background: url(top-bg-images/S__383721474.jpg) no-repeat center center; /* 画像のURLを指定 */
   background-size: cover;
 }
 .photo-box12 .circumscribed-photo-box2 {

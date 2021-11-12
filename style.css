@@ -225,7 +225,7 @@ header .wrapper {
 }
 ---- */
 .blog-bg {
-   background-image: url(S__359006210.jpg);
+   background-image: url(top-bg-images/S__359006210.jpg);
    width: 100%;
    background-size: cover;
    height: 100%;
@@ -354,7 +354,7 @@ header .wrapper {
 /* ABOUT */
 
 .big-bg {
-  background-image: url(349831170-10.jpg);
+  background-image: url(top-bg-images/349831170-10.jpg);
   background-size: cover;
   height: 100vh;
   background-color: #000;
@@ -524,7 +524,7 @@ article {
     color: #fff;
 }
 .sliderbg {
-    background-image: url(S__350347268.jpg);
+    background-image: url(top-bg-images/S__350347268.jpg);
     background-size: cover;
 
     background-color: #000;
@@ -624,7 +624,7 @@ ul {
 }
 
 .newsbg {
-    background-image: url(DSC03147-2.jpg);
+    background-image: url(top-bg-images/DSC03147-2.jpg);
     background-size: cover;
 }
 .padding {
@@ -877,7 +877,7 @@ ul {
     margin-top: 530px;
 }
 .contact-bg {
-    background-image: url(S__351551490.jpg);
+    background-image: url(top-bg-images/S__351551490.jpg);
     background-size: cover;
 }
 
